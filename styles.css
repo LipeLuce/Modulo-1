@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(10, 70, 20, 0.2); 
+    color: rgb(14, 13, 13);
+    line-height: 1,6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px
+}
+
+header{
+      background-image: url('head.jpg'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      height: 100vh; 
+      margin: 0;
+      text-align: center; 
+      color: azure;
+      border-radius: 10px;
+}
+
+header h1{
+    font-size: 85px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px 100px; 
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;    
+}
+
+header button{
+    background-color: rgba(10, 70, 20, 0.5);  
+    color: white;               
+    padding: 10px 20px;         
+    border: none;               
+    border-radius: 5px;                    
+    font-size: 40px;
+    font-style: italic
+}
+
+nav{
+    margin: 20px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    background-color:  rgba(10, 70, 20, 0.5);       
+    padding: 10px 20px;                       
+    border-radius: 5px;                    
+    font-size: 30px;
+    margin: auto;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+main{
+    padding: 30px;
+    align-items: center;    
+}
+
+
+
+.branco{
+    margin: 30px auto;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;  
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    
+   
+}
+
+.branco2{
+    margin: 30px auto;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;  
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    text-align: center;
+
+    
+   
+}
+
+img{
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+   
+    
+} 
+
+
+main  section  ul li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 100px;
+    background-color: rgba(10, 70, 20, 0.5);  
+    color: white;                         
+    padding: 10px 20px;                       
+    border-radius: 5px;                    
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+footer{
+    text-align: center;
+}
